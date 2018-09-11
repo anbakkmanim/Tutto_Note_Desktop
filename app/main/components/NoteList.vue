@@ -182,15 +182,16 @@ export default {
       this.$router.push({path: '/'})
     },
     popup(_id){
-      let absolutePath = 'E:/github/nwvue/tuttonote/app/main/components/index.html'
-      let relativePath = './index.html'
+      let popupPage = 'http://115.68.24.158:3000/public/index.ejs'
       let gui = require('nw.gui')
-      let new_win = gui.Window.open(absolutePath, {
+      let new_win = gui.Window.open(popupPage, {
         width: 500,
         height: 300,
         frame: false,
       }, (win) => {
         win.setAlwaysOnTop(true)
+        win.removeAllListeners('minimize')
+        win.removeAllListeners('maximize')
       })
     }
   }

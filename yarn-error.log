@@ -1,0 +1,67 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js install
+
+PATH: 
+  C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_161\bin;C:\Program Files\nodejs\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\MongoDB\Server\3.6\bin;C:\Program Files\Microsoft VS Code;C:\xampp\php;C:\ProgramData\ComposerSetup\bin;D:\Program Files\PuTTY\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Fuse\;C:\Go\bin;C:\Program Files\ngrok;C:\Program Files\MySQL\MySQL Server 5.7\bin;C:\apache-maven-3.5.4\bin;C:\Program Files (x86)\Yarn\bin\;C:\Program Files (x86)\Google\Cloud SDK\google-cloud-sdk\bin;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.7.2 Tools;C:\Program Files\dotnet\;C:\Python27;C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\Scripts\;C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Microsoft VS Code\bin;C:\Users\Administrator\AppData\Roaming\npm;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\Administrator\AppData\Local\GitHubDesktop\bin;C:\Users\Administrator\AppData\Roaming\Composer\vendor\bin;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\Users\Administrator\go\bin;C:\Users\Administrator\AppData\Local\Yarn\bin;C:\Users\Administrator\AppData\Local\Programs\Microsoft VS Code\bin
+
+Yarn version: 
+  1.7.0
+
+Node version: 
+  8.10.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: getaddrinfo EAI_AGAIN registry.yarnpkg.com:443
+      at Object._errnoException (util.js:1022:11)
+      at errnoException (dns.js:55:15)
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:92:26)
+
+npm manifest: 
+  {
+    "private": true,
+    "scripts": {
+      "dev": "node build/dev-runner.js",
+      "build": "node build/build.js"
+    },
+    "devDependencies": {
+      "axios": "^0.16.2",
+      "babel-core": "^6.24.1",
+      "babel-loader": "^7.0.0",
+      "babel-minify-webpack-plugin": "^0.2.0",
+      "babel-plugin-transform-runtime": "^6.23.0",
+      "babel-preset-env": "^1.6.0",
+      "babel-preset-stage-0": "^6.24.1",
+      "css-loader": "^0.28.4",
+      "extract-text-webpack-plugin": "^2.1.0",
+      "file-loader": "^0.11.1",
+      "fs-extra": "^4.0.1",
+      "html-webpack-plugin": "^2.28.0",
+      "node-sass": "^4.5.3",
+      "npm-which": "^3.0.1",
+      "nwjs-builder-phoenix": "^1.14.4",
+      "sass-loader": "^6.0.5",
+      "url-loader": "^0.5.9",
+      "vue": "^2.3.3",
+      "vue-loader": "^12.2.1",
+      "vue-router": "^2.7.0",
+      "vue-template-compiler": "^2.3.3",
+      "vuex": "^2.3.1",
+      "webpack": "^2.6.1",
+      "webpack-dev-server": "^2.7.1",
+      "webpack-hot-middleware": "^2.18.2"
+    },
+    "dependencies": {
+      "vue-moment": "^4.0.0",
+      "vuetify": "^1.1.4",
+      "vuex-persist": "^1.4.3"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
