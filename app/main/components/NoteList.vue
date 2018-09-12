@@ -182,7 +182,7 @@ export default {
       this.$router.push({path: '/'})
     },
     popup(_id){
-      let popupPage = 'http://115.68.24.158:3000/public/index.ejs'
+      let popupPage = `http://115.68.24.158:3000/popup/${_id}`
       let gui = require('nw.gui')
       let new_win = gui.Window.open(popupPage, {
         width: 500,

@@ -152,12 +152,6 @@ export default {
           display: true
         },
         {
-          icon: 'calendar_today',
-          route:'/calendar',
-          title: 'Calendar',
-          display: true
-        },
-        {
           icon: 'delete',
           title: 'Trash',
           route:'/trash',
