@@ -90,10 +90,12 @@
       >
       <!-- </v-text-field> -->
     </v-flex>
+
     <v-speed-dial
       v-model="fab"
       direction="right"
       transition="slide-x-transition"
+      absolute="true"
     >
       <v-btn
         slot="activator"
@@ -115,6 +117,7 @@
       >
       </v-btn>
     </v-speed-dial>
+
     <v-flex class="btns">
       <v-btn color="primary" v-on:click="submit()">확인</v-btn>
       <v-btn color="primary" v-on:click="remove()">삭제</v-btn>
